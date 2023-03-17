@@ -11,7 +11,7 @@ Features:
 - Bankaccount von der Vermögenssteuer abhängig ist
 - Intervall zwischen jeder Steuer (Clientseitig)
 
-Einzelne Features der Zones:
+Einzelne Features der Steuern:
 - Prozentsatz bzw. Preis
 
 ## Download
