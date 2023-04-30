@@ -31,14 +31,6 @@ Citizen.CreateThread(function()
 				end
 			end)
 		end
-		if Config.GS then
-			ESX.TriggerServerCallback('tg_taxsystem:getpropertycount', function (properties)
-				if properties ~= nil then
-					local gsa = ESX.Math.Round(properties * Config.GSA)
-					TriggerServerEvent('esx_billing:sendBill', GetPlayerServerId(PlayerId()), Config.Reciver, '~r~Grundsteuer ~s~('..properties..' Grundstück/e)', gsa)
-				end
-			end)
-		end
 		if Config.VS then
 			ESX.TriggerServerCallback('tg_taxsystem:getbankmoney', function (bm)
 				if bm ~= nil then

@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'Tiger (Lets_Tiger#4159)'
 description 'Tax System'
-version '1.1'
+version '1.2'
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
