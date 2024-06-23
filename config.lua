@@ -1,17 +1,19 @@
 Config = {}
 
-Config.EKS                  =       true            -- Einkommenssteuer Aktiviert/Deaktiviert
-Config.FZS                  =       true            -- Fahrzeugsteuer Aktiviert/Deaktiviert
-Config.VS                   =       true            -- Vermögenssteuer Aktiviert/Deaktiviert
+Config.Debug                =       false               -- Debug Modus
 
-Config.EKSP                 =       18              -- Einkommenssteuer Prozent
+Config.EKS                  =       true                -- Einkommenssteuer Aktiviert/Deaktiviert
+Config.FZS                  =       true                -- Fahrzeugsteuer Aktiviert/Deaktiviert
+Config.VS                   =       true                -- Vermögenssteuer Aktiviert/Deaktiviert
 
-Config.FZSP                 =       33.29           -- Fahrzeugsteuer pro Fahrzeug
+Config.EKSP                 =       18                  -- Einkommenssteuer Prozent
 
-Config.VSP                  =       1               -- Vermögenssteuer Prozent (Geldvermögen)
-Config.VSPmin               =       600000          -- Vermögenssteuer aktiviert ab folgendem Geldvermögen
+Config.FZSP                 =       33.29               -- Fahrzeugsteuer pro Fahrzeug
 
-Config.Bankaccount          =       'bank'          -- Bank Account Name
-Config.Reciver              =       'society_gov'   -- Society Name der Fraktion die die Steuern erhalten soll
+Config.VSP                  =       1                   -- Vermögenssteuer Prozent (Geldvermögen)
+Config.VSPmin               =       600000              -- Vermögenssteuer aktiviert ab folgendem Geldvermögen
 
-Config.Intervall            =       60              -- Intervall zwischen jeder Steuer in Minuten
+Config.Account              =       'bank'              -- Bank Account Name
+Config.Reciever             =       'society_police'    -- Society Name der Fraktion die die Steuern erhalten soll
+
+Config.Intervall            =       60                  -- Intervall zwischen jeder Steuer in Minuten
