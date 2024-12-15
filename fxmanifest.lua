@@ -1,18 +1,28 @@
 fx_version 'cerulean'
 games { 'gta5' }
 
-author 'Tiger (Lets_Tiger#4159)'
-description 'Tax System'
-version '1.3'
+author 'Tiger (Discord: lets_tiger)'
+description 'Tax System Script'
+version '2.0.0'
+
+lua54 'yes'
+
+client_scripts {
+	'client/main.lua'
+}
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
-	'config.lua',
 	'server/main.lua',
-	'server/version_check.lua',
+	'server/version_check.lua'
 }
 
-client_scripts {
+shared_script {
 	'config.lua',
-	'client/main.lua',
+    'locales.lua',
+    'locales/*.lua'
+}
+
+files {
+	'stream/TG_Textures.ytd'
 }
